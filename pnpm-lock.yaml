@@ -2,9 +2,13 @@ lockfileVersion: 5.4
 
 specifiers:
   '@netlify/functions': ^1.0.0
+  '@types/node': ^17.0.35
 
 dependencies:
   '@netlify/functions': 1.0.0
+
+devDependencies:
+  '@types/node': 17.0.35
 
 packages:
 
@@ -14,6 +18,10 @@ packages:
     dependencies:
       is-promise: 4.0.0
     dev: false
+
+  /@types/node/17.0.35:
+    resolution: {integrity: sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==}
+    dev: true
 
   /is-promise/4.0.0:
     resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
