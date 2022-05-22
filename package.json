@@ -9,7 +9,9 @@
     },
     "dependencies": {
         "@netlify/functions": "^1.0.0",
-        "node-fetch-cookies": "^2.0.4"
+        "dotenv": "^16.0.1",
+        "node-fetch-cookies": "^2.0.4",
+        "twilio": "^3.77.1"
     },
     "devDependencies": {
         "@types/node": "^17.0.35"
