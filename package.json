@@ -9,6 +9,7 @@
     },
     "dependencies": {
         "@netlify/functions": "^1.0.0",
+        "airtable": "^0.11.4",
         "dotenv": "^16.0.1",
         "node-fetch-cookies": "^2.0.4",
         "twilio": "^3.77.1"

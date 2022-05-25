@@ -7,10 +7,12 @@ const twilio = Twilio(
 );
 
 const handler: Handler = async (event, context) => {
-  const message = await twilio.messages.create({
-    body: "We will let you know when a slot is available at Belgium consulate in Montreal.",
+  const { phone_number, consulate, date } = JSON.parse(event.body);
+
+  await twilio.messages.create({
+    body: `A slot is available at ${consulate} on ${date}. Go get it!`,
     from: "+17694472302",
-    to: "+15142222639",
+    to: phone_number,
   });
   return {
     statusCode: 200,
