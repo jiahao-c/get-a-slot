@@ -18,6 +18,10 @@ I had a hard time getting an appointment for my schengen visa application.
 2. Enter your perfered date range of appointment, and your phone number.
 3. You will receive a text message when an appointment slot is available.
 
+<div align="center">
+  <img alt="slot" src="https://user-images.githubusercontent.com/8275280/170397489-3e1a79ca-2763-43b0-9bc2-565207135038.jpg" width="200"  />
+</div>
+
 ## How it works (System Design)
 
 - Form: AirTable
