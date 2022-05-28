@@ -5,6 +5,7 @@
 <div align="center">
 
 [A tool](https://airtable.com/shrUCzw9c7LWe57kq) to notify you when an appointment slot is available at a consulate.
+Note: This is a work-in-progress. 
 
 </div>
 
